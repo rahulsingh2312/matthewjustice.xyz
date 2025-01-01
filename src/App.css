@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  background: black;
+  color: white;
+  margin: 0;
+}
+
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 5px #4299e1, 0 0 10px #4299e1, 0 0 15px #4299e1;
+  }
+  100% {
+    box-shadow: 0 0 10px #4299e1, 0 0 20px #4299e1, 0 0 30px #4299e1;
+  }
+}
+
+.glow {
+  animation: glow 2s ease-in-out infinite alternate;
+}
+
