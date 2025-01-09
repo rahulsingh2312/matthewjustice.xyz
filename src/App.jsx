@@ -28,8 +28,8 @@ const App = () => {
 
   const tweetUrls = [
     'https://twitter.com/user/status/1874704973055029546',
-    // 'https://twitter.com/user/status/1871107091328561641',
-    // 'https://twitter.com/user/status/1870888069777232241',
+    'https://twitter.com/user/status/1874952852705357961',
+    'https://twitter.com/user/status/1874924670849515736',
     // 'https://twitter.com/user/status/1871270749253910801',
     // 'https://twitter.com/user/status/1871270749253910801'
   ];
@@ -133,6 +133,35 @@ const App = () => {
         ))}
       </div>
     </div>
+  {/* Mission Statement */}
+  <section className="container mx-auto px-4 py-16">
+          <div className="max-w-3xl mx-auto rounded-2xl border border-white/10 bg-black/30 backdrop-blur-md p-8 md:p-12">
+            <div className="prose prose-invert mx-auto text-center">
+              <div className="text-base md:text-lg text-white/90 leading-relaxed space-y-6">
+                <div className="mb-6">
+                  We do not allow people to be tried by a court of public opinion.<br />
+                  We do not support disrespecting the dead.<br />
+                  We do not standby and watch civil rights being violated.<br />
+                  We do not enable corruption.
+                </div>
+                
+                <div className="mb-6">
+                  We presume all people are innocent until proven guilty by a court of law or a fair, unbiased and transparent investigation.<br />
+                  We support victims and their families who have been touched by violence.<br />
+                  We fight for our beliefs with public discourse and compassion.
+                </div>
+                
+                <div className="italic mt-8">
+                  <p className="text-lg md:text-xl text-white/80">
+                    "The only thing necessary for the triumph of evil is for good men [women] to do nothing."
+                    <span className="text-sm mt-2 ml-4 text-white/60">- Edmund Burke</span>
+                  </p>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
 {/* <Testimonials /> */}
       <footer style={{
